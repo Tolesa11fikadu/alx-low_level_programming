@@ -1,6 +1,1 @@
-Hello, World
-^C
-:wq
-w
-q
-^C
+script that compiles a C file but does not link
