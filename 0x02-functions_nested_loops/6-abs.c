@@ -7,10 +7,7 @@
 */
 int _abs(int)
 {
-if (c > 0 || c == 0)
-{
-return (c);
-}
-else
-return (c * -1);
+if (n < 0)
+n = -n
+return (n);
 }
