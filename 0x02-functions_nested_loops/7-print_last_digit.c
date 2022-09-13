@@ -2,7 +2,7 @@
 /**
  *print_last_digit - prints the last digit of number.
  *@n: The number in the qustion
- *Retrun: value of the last digit.
+ *Retrun: Returns the value of the last digit
  */
 int print_last_digit(int n)
 {
