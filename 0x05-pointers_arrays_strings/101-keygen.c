@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stddef.h>
 /**
  * main - generates random valid passwords
  * Return: 0 (on success)
@@ -8,7 +9,7 @@
 int main(void)
 {
 int pass, sum;
-srand(time(Null));
+srand(time(null));
 sum = 0;
 while (sum <= 2645)
 {
