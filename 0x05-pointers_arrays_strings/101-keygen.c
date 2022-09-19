@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <time.h>
 #include <stddef.h>
 /**
@@ -8,6 +7,7 @@
  */
 int main(void)
 {
+void null;
 int pass, sum;
 srand(time(null));
 sum = 0;
