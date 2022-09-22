@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * strcat - concentrates the string pointed to by @src, including the terminal
- *          null byte, to the end of the string pointed to by @dest.
- * @dest: A pointer to the string to the concentrated upon.
- * @src: The source string to be appended to @dest.
- * Return:A pointer to the destination string @dest.
+ *strcat - concentrates the string pointed to by @src, including the terminal
+ *null byte, to the end of the string pointed to by @dest.
+ *@dest: A pointer to the string to the concentrated upon.
+ *@src: The source string to be appended to @dest.
+ *Return:A pointer to the destination string @dest.
  */
 char *_strcat(char *dest, char *src)
 {
