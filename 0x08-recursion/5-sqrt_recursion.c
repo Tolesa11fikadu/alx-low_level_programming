@@ -20,7 +20,7 @@ return (helperFunction(num, psqrt + 1));
 }
 }
 /**
- * _sqrt_recursion - returns the natural square root of number 
+ * _sqrt_recursion - returns the natural square root of number
  * @n: number to find the sqrt of number
  * Return: squareroot of n
  * -1 if n does not have a sqrt
