@@ -4,7 +4,7 @@ int  _strlen(char *str);
 char *_strcopy(char *dest, char *src);
 dog_t *new_dog(char *name, float age, char *owner);
 /**
- * _strlen -find the lengh of string 
+ * _strlen - find the lengh of string
  * @src: The string to be measured
  * Retur: The lengh of string
  */
@@ -39,12 +39,12 @@ return (dest);
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *doggo;
-if (name == NULL || age < 0 |\ owner == NULL)
+if (name == NULL || age < 0 || owner == NULL)
 return (NULL);
 doggo = malloc(sizeof(dog_t));
 if (doggo == NULL)
 return (NULL);
-doggo ->name = malloc(sizeof(char) * (_strlen(name) + 1));
+doggo->name = malloc(sizeof(char) * (_strlen(name) + 1));
 if (doggo->name = NULL)
 {
 free(doggo);
@@ -58,7 +58,7 @@ free(doggo);
 return (NULL);
 }
 doggo->name = _strcopy(doggo->name, name);
-doggo->age = age
+doggo->age = age;
 doggo->owner = _strcopy(doggo-<owner, owner);
 return (doggo);
 }
