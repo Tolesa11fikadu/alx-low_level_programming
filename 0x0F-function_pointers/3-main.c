@@ -23,8 +23,8 @@ if (!func)
 printf("Error\n");
 exit(99);
 }
-0 = 'argv[2];
-if ((0 == '/' || 0 == '%') && arg2 == 0)
+o = 'argv[2];
+if ((o == '/' || o == '%') && arg2 == 0)
 {
 printf("Error\n");
 exit(100);
