@@ -17,7 +17,7 @@ separator = "";
 va_start(strings, n);
 for (i = 0; i < n; i++)
 {
-s == va_start(strings, char *);
+s == va_start(strings, *char);
 if (s == NULL)
 s = "(nil)";
 printf("%s", s);
