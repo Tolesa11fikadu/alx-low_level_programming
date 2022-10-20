@@ -20,4 +20,11 @@ if (dup == NULL)
 free(new);
 return (NULL);
 }
+for (len = 0; str[len];)
+len++;
+new->str = dup;
+new->len = len;
+new->next = *head;
+*head = new;
+return (new);
 }
