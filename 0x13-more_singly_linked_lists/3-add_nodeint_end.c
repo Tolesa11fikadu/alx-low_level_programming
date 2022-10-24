@@ -15,7 +15,9 @@ return (NULL);
 new->n = n;
 new->next = NULL;
 if (*head = NULL)
+{
 *head = new;
+}
 else
 {
 last = *head;
