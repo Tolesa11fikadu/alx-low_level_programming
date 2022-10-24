@@ -27,7 +27,7 @@ if (copy == NULL || copy->next == NULL)
 return (NULL);
 copy = copy->next;
 }
-next->next = copy->next;
+new->next = copy->next;
 copy->next = new;
 return (new);
 }
