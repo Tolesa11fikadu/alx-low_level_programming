@@ -17,7 +17,8 @@ if (buffer == NULL)
 return (0);
 o = open(filename, o_RDONLY);
 r = read(o, buffer, letters);
-w = write(o == -1 || r == -1 || w != r)
+w = write(STDOUT_FILENO, buffer, r);
+if (o == -1 || r == -1 || w == -1 || w != r)
 {
 free(buffer);
 return (0);
