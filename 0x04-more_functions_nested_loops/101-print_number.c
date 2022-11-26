@@ -28,7 +28,7 @@ void print_number(int n)
 
 						{
 
-									_putchar(45);
+									putchar(45);
 
 											x = -n;
 
@@ -38,6 +38,6 @@ void print_number(int n)
 
 								print_number(x / 10);
 
-						_putchar((x % 10) + '0');
+						putchar((x % 10) + '0');
 
 }
