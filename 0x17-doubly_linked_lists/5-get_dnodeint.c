@@ -17,7 +17,8 @@ while (tmp)
 {
 if (index == size)
 return (tmp);
-size++;										tmp = tmp->next;
+size++;
+tmp = tmp->next;
 }
 return (NULL);
 }
